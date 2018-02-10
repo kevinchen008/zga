@@ -1,0 +1,38 @@
+ext {
+   // profile = project['env']
+    profile = 'dev'
+}
+
+apply plugin: 'war'
+
+
+def loadGroovyConfig(){
+    def configFile = file('config.groovy')
+    new ConfigSlurper(profile).parse(configFile.toURL()).toProperties()
+}
+
+processResources {
+    from(sourceSets.main.resources.srcDirs) {
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: loadGroovyConfig())
+    }
+}
+
+dependencies {
+
+    compile project(':common-base')
+    compile project(':common-pay')
+
+    compile ("org.glassfish.jersey.ext:jersey-spring4:2.26"){
+        exclude group: 'org.springframework'
+    }
+    compile 'org.glassfish.jersey.media:jersey-media-json-jackson:2.26'
+    compile 'org.glassfish.jersey.media:jersey-media-multipart:2.26'
+    compile 'org.glassfish.jersey.ext:jersey-entity-filtering:2.26'
+    compile 'org.glassfish.jersey.core:jersey-common:2.26'
+
+    compile 'io.swagger:swagger-jersey2-jaxrs:1.5.9'
+
+    compile 'com.alibaba:druid:1.0.27'
+    runtime 'mysql:mysql-connector-java:5.1.30'
+
+}

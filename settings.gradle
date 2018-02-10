@@ -1,0 +1,8 @@
+rootProject.name = 'ZGA'
+include 'common-base'
+include 'gudo-api'
+include 'hala-web'
+include 'common-msg-producer'
+include 'common-msg-consumer'
+include 'common-pay'
+

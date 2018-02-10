@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZGA.iml" filepath="$PROJECT_DIR$/ZGA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-base/common-base.iml" filepath="$PROJECT_DIR$/.idea/modules/common-base/common-base.iml" group="common-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-base/common-base_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-base/common-base_main.iml" group="common-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-base/common-base_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-base/common-base_test.iml" group="common-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer.iml" group="common-msg-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer_main.iml" group="common-msg-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer_test.iml" group="common-msg-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-producer/common-msg-producer.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-producer/common-msg-producer.iml" group="common-msg-producer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-producer/common-msg-producer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-producer/common-msg-producer_main.iml" group="common-msg-producer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-producer/common-msg-producer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-producer/common-msg-producer_test.iml" group="common-msg-producer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-pay/common-pay.iml" filepath="$PROJECT_DIR$/.idea/modules/common-pay/common-pay.iml" group="common-pay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-pay/common-pay_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-pay/common-pay_main.iml" group="common-pay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-pay/common-pay_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-pay/common-pay_test.iml" group="common-pay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gudo-api/gudo-api.iml" filepath="$PROJECT_DIR$/.idea/modules/gudo-api/gudo-api.iml" group="gudo-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gudo-api/gudo-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gudo-api/gudo-api_main.iml" group="gudo-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gudo-api/gudo-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gudo-api/gudo-api_test.iml" group="gudo-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hala-web/hala-web.iml" filepath="$PROJECT_DIR$/.idea/modules/hala-web/hala-web.iml" group="hala-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hala-web/hala-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hala-web/hala-web_main.iml" group="hala-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hala-web/hala-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hala-web/hala-web_test.iml" group="hala-web" />
+    </modules>
+  </component>
+</project>

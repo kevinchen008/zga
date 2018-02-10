@@ -1,0 +1,32 @@
+ext {
+    // profile = project['env']
+    profile = 'dev'
+}
+
+apply plugin: 'java'
+
+
+def loadGroovyConfig(){
+    def configFile = file('config.groovy')
+    new ConfigSlurper(profile).parse(configFile.toURL()).toProperties()
+}
+
+processResources {
+    from(sourceSets.main.resources.srcDirs) {
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: loadGroovyConfig())
+    }
+}
+
+dependencies {
+    compile project(':common-base')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework.amqp', name: 'spring-amqp', version: '2.0.2.RELEASE'
+    compile 'com.aliyun:aliyun-java-sdk-dysmsapi:1.0.0'
+    compile 'com.aliyun:aliyun-java-sdk-core:3.3.1'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.4'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.4'
+
+    compile 'com.alibaba:druid:1.0.27'
+    runtime 'mysql:mysql-connector-java:5.1.30'
+}

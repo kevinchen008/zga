@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="common-base_main" target="1.8" />
+      <module name="common-base_test" target="1.8" />
+      <module name="common-msg-consumer_main" target="1.8" />
+      <module name="common-msg-consumer_test" target="1.8" />
+      <module name="common-msg-producer_main" target="1.8" />
+      <module name="common-msg-producer_test" target="1.8" />
+      <module name="common-pay_main" target="1.8" />
+      <module name="common-pay_test" target="1.8" />
+      <module name="gudo-api_main" target="1.8" />
+      <module name="gudo-api_test" target="1.8" />
+      <module name="hala-web_main" target="1.8" />
+      <module name="hala-web_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

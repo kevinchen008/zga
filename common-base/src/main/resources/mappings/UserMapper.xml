@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="user">
+    <resultMap type="com.zga.common.bean.UserEntity" id="userResultMap">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="age" column="age" />
+        <result property="remark" column="remark" />
+    </resultMap>
+
+    <insert id="addUser" parameterType="com.zga.common.bean.UserEntity">
+        INSERT INTO user(id,name,age,remark)
+        VALUES( #{id:VARCHAR},#{name:VARCHAR},#{age:VARCHAR}, #{remark:VARCHAR})
+    </insert>
+
+    <select id="getAllUsers" resultMap="userResultMap">
+        select id,name,age,remark
+        from user
+    </select>
+</mapper>

@@ -5,4 +5,5 @@ include 'hala-web'
 include 'common-msg-producer'
 include 'common-msg-consumer'
 include 'common-pay'
+include 'common-msg-beans'
 

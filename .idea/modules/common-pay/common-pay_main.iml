@@ -6,7 +6,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../../common-pay/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../../common-pay/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../common-pay/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../common-pay/src/main/java" isTestSource="false" />

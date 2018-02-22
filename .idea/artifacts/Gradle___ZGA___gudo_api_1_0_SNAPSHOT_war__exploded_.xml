@@ -14,102 +14,102 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="gudo-api_main" />
-          <element id="dir-copy" path="$PROJECT_DIR$/gudo-api/out/production/resources" />
+          <element id="dir-copy" path="$PROJECT_DIR$/gudo-api/build/resources/main" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.7" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.2" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-oxm:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-test:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis:3.2.8" />
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis-spring:1.2.2" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-redis:1.6.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: redis.clients:jedis:2.7.3" />
+          <element id="library" level="project" name="Gradle: commons-fileupload:commons-fileupload:1.3.1" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.7" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" />
           <element id="archive" name="ZGA-common-base-1.0-SNAPSHOT.jar">
             <element id="module-output" name="common-base_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/common-base/out/production/resources" />
+            <element id="dir-copy" path="$PROJECT_DIR$/common-base/build/resources/main" />
           </element>
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-pool2:2.3" />
+          <element id="library" level="project" name="Gradle: commons-io:commons-io:2.2" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.12" />
           <element id="archive" name="ZGA-common-pay.jar">
             <element id="module-output" name="common-pay_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/common-pay/out/production/resources" />
+            <element id="dir-copy" path="$PROJECT_DIR$/common-pay/build/resources/main" />
           </element>
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.7/56003dcd0a31deea6391b9e2ef2f2dc90b205a92/jcl-over-slf4j-1.7.7.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/2d23694879c2c12f125dac5076bdfd5d771cc4cb/logback-core-1.1.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.3.RELEASE/3ed00dad7a16b2a28df9348294f6a67151f43cf6/spring-core-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.3.RELEASE/98eea3fbe01450fff18aeb7e6003f80a879a049e/spring-web-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.2.3.RELEASE/ad85116d6273307ef28818aa5d184687f400a8a3/spring-oxm-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.2.3.RELEASE/617420d7e0351c334aa4495d6f30ad21c4c643a7/spring-tx-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.2.3.RELEASE/22f129baf3914b6bbaa842f9356c32d93ecf7bc1/spring-jdbc-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.3.RELEASE/46803840259c6d51c531e4f07f4213d758c6ee1d/spring-webmvc-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.3.RELEASE/6384a57a024df03bfcb1eeccd3d820da98125b92/spring-aop-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.2.3.RELEASE/c862b48a65af6f749187405f40315528529e0b26/spring-context-support-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.2.3.RELEASE/d7c055b8fb1117ef75045679892228a4816cd80e/spring-test-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.2.8/7b6bf82cea13570b5290d6ed841283a1fcce170/mybatis-3.2.8.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.2.2/1e40a7f5373e4242075a1d386817e7dd49b1697d/mybatis-spring-1.2.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.6.2.RELEASE/9abfa6e83dc4bc74e953a79f954d963bd0af7a26/spring-data-redis-1.6.2.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/redis.clients/jedis/2.7.3/5f6b152b43424aed4ace4e545879cf17945d1daa/jedis-2.7.3.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.3.1/c621b54583719ac0310404463d6d99db27e1052c/commons-fileupload-1.3.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.7/557edd918fd41f9260963583ebf5a61a43a6b423/commons-lang3-3.7.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.0.1/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring4/2.26/e5f2654b343c31078d9b5c8a4f43b838b320099f/jersey-spring4-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.26/ce3109479991527107921ca5e7943a6e7e20db80/jersey-media-json-jackson-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-multipart/2.26/c7ea0a5819e4688317024c9f4b6e3de54f9d0f3d/jersey-media-multipart-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.26/a8ea15c9cd0bd8b090dbbf0f0e43aa39604f3433/jersey-entity-filtering-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.26/d96475745c5e72cafcbc4dc9e2e725f4d9683f21/jersey-common-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-jersey2-jaxrs/1.5.9/86cf3460ed1525b1b6d26d7b227e9ed0bf9ea71f/swagger-jersey2-jaxrs-1.5.9.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.27/f87fe97b31c1b2f1af9a177793b42d01d0cf3362/druid-1.0.27.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.30/203cca178350b60899be36d0e56029eca7430d8/mysql-connector-java-5.1.30.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.3.RELEASE/249921ead97248410ac04f854075f0a1c1a567e4/spring-beans-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.3.RELEASE/fb26a160d984eb9cbf01fbf38f4b17e15fdd50e1/spring-context-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.3.RELEASE/67b064c726c276436387c7a183a49deda153a6cc/spring-expression-4.2.3.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.3/62a559a025fd890c30364296ece14643ba9c8c5b/commons-pool2-2.3.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.2/83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a/commons-io-2.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.59/2507204241ab450456bdb8e8c0a8f986e418bd99/bcprov-jdk15on-1.59.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.4/498bbc3b94f566982c7f7c6d4d303fce365529be/jackson-databind-2.9.4.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.4/a9a71ec1aa37da47db168fede9a4a5fb5e374320/jackson-core-2.9.4.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.26/aa8eff3d591641dadd7c9880bb73b59bf46d4c82/jersey-server-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.inject/jersey-hk2/2.26/df27f7d7577acf4b532684448021632098924dab/jersey-hk2-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.26/66a0d51facf1e49e2353ff0d2a2d4a9e2fa3f836/jersey-container-servlet-core-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.5.0-b42/adc396d57e9cada50f57d32cdabaf31a20a758d/hk2-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.5.0-b42/7cedc63a9079e87b5a2685c054e61cfce8c44837/spring-bridge-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.1/426a0862406536e690c7caa8bb6ed32191986fac/javax.ws.rs-api-2.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.4/d2eec7cf6c4284f7d5f0b1a72dc7cfa9d6bb579d/jackson-module-jaxb-annotations-2.8.4.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.mimepull/mimepull/1.9.6/41c913d791e16f93bc712a8c8a30bb64daa2e9bd/mimepull-1.9.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.5.0-b42/98e0b7dcef77dc04809f0603868140a1c60bea71/javax.inject-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/4ed2b2d4738aed5786cfa64cba5a332779c4c708/osgi-resource-locator-1.0.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-jaxrs/1.5.9/8963cb24f7c1bdc76604919b30cd6ae7d5f660d3/swagger-jaxrs-1.5.9.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.26/125b8d1040d121a5dc4ce6858e21a6160bed7afa/jersey-client-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.26/791397ceb5d1c8f389664b1de3e4208c2ac1015b/jersey-media-jaxb-2.26.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.5.0-b42/9d6edc0cb226401a8316e67d81bfc37cb626ef91/hk2-locator-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.5.0-b42/102a344e1728825e865a8986d7605602aba3c3b6/hk2-utils-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.5.0-b42/7fd4e3d0f2cb37c80ad0dedee3f5ee69503eaf52/hk2-api-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.5.0-b42/3e927a0624955d10bec3eb5424a1e6ca3d5f92ae/config-types-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.5.0-b42/7a4954663f1b65b1938fd275b34bbf1e23965381/hk2-core-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.5.0-b42/de522871d987e2bf502753c807461f9ee805f6bd/hk2-config-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.5.0-b42/6502d8997ac961f0d2d16d90e838d25626c1a37b/hk2-runlevel-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.5.0-b42/a9824e8ed9748f3622394d6d32098cc1bb2a0ea1/class-model-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.4.5/918e84a84ee0b202bb74bab590119b01bbea9830/jackson-dataformat-yaml-2.4.5.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.4.5/535f27c7e322abc54c9758b50df1594f31ee6524/jackson-dataformat-xml-2.4.5.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-core/1.5.9/17338eed33903397a508e92ff6f98de53f99350e/swagger-core-1.5.9.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.10/c7f4ea230aedc757ca1499ebcfb2953c81cf8b67/reflections-0.9.10.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.4.5/aefd5dd637402fd697c1e2b083535d153ffd66c0/jackson-jaxrs-json-provider-2.4.5.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.5.0-b42/e74beab6ca12e9e745eb47ca61729d9452b96f0c/aopalliance-repackaged-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.22.0-CR2/44eaf0990dea92f4bca4b9931b2239c0e8756ee7/javassist-3.22.0-CR2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet/tiger-types/1.4/9f75db7dea926f497e76eae2cea36eca74ea508/tiger-types-1.4.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.5.0-b42/3afd5d4f63116e8c00b430f32092282e5e475ce8/asm-all-repackaged-2.5.0-b42.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.12/ebe66a6b88caab31d7a19571ad23656377523545/snakeyaml-1.12.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/ac19014b1e6a7c08aad07fe114af792676b685b7/stax2-api-3.1.4.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.4.5/830f7e1a9d69674900d1fa066d6ba27112ec6ca9/jackson-datatype-joda-2.4.5.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-models/1.5.9/7cc6e2b63619d826f9da4203630ab7add866a473/swagger-models-1.5.9.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/2.0.1/9ef6656259841cebfb9fb0697bb122ada4485498/annotations-2.0.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.4.5/b5a04c9664913552b75820834e945424e32b244f/jackson-jaxrs-base-2.4.5.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.2.1.Final/fedf11b3d4665a434b554a5891fe7f208f029f45/jboss-logging-3.2.1.Final.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.1.0/dbbd699a1486ad0f2ed6f5af6cfed66acacb9056/classmate-1.1.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.9/598403e3d21da08f8e46efb9f2b6d7b1bc0046d/swagger-annotations-1.5.9.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.12/8e20852d05222dc286bf1c71d78d0531e177c317/slf4j-api-1.7.12.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar" />
+          <element id="library" level="project" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.59" />
+          <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.11" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.4" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.4" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-spring4:2.26" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-json-jackson:2.26" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-multipart:2.26" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-entity-filtering:2.26" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-common:2.26" />
+          <element id="library" level="project" name="Gradle: io.swagger:swagger-jersey2-jaxrs:1.5.9" />
+          <element id="library" level="project" name="Gradle: com.alibaba:druid:1.0.27" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.30" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-server:2.26" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.inject:jersey-hk2:2.26" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet-core:2.26" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:spring-bridge:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.1" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4" />
+          <element id="library" level="project" name="Gradle: org.jvnet.mimepull:mimepull:1.9.6" />
+          <element id="library" level="project" name="Gradle: javax.annotation:javax.annotation-api:1.2" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
+          <element id="library" level="project" name="Gradle: io.swagger:swagger-jaxrs:1.5.9" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-client:2.26" />
+          <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.26" />
+          <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-api:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:config-types:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-core:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-config:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:hk2-runlevel:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2:class-model:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.4.5" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.4.5" />
+          <element id="library" level="project" name="Gradle: io.swagger:swagger-core:1.5.9" />
+          <element id="library" level="project" name="Gradle: org.reflections:reflections:0.9.10" />
+          <element id="library" level="project" name="Gradle: com.google.guava:guava:18.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.4.5" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.22.0-CR2" />
+          <element id="library" level="project" name="Gradle: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Gradle: org.jvnet:tiger-types:1.4" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.2.4.Final" />
+          <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:asm-all-repackaged:2.5.0-b42" />
+          <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.12" />
+          <element id="library" level="project" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-joda:2.4.5" />
+          <element id="library" level="project" name="Gradle: io.swagger:swagger-models:1.5.9" />
+          <element id="library" level="project" name="Gradle: com.google.code.findbugs:annotations:2.0.1" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.4.5" />
+          <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.2.1.Final" />
+          <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.1.0" />
+          <element id="library" level="project" name="Gradle: joda-time:joda-time:2.2" />
+          <element id="library" level="project" name="Gradle: io.swagger:swagger-annotations:1.5.9" />
         </element>
       </element>
     </root>

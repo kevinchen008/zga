@@ -1,5 +1,6 @@
 package com.zga.msg.producer.sender;
 
+import com.zga.msg.beans.AliSmsMessage;
 import org.springframework.amqp.core.AmqpTemplate;
 
 public class AliSmsSendMessage {
@@ -15,8 +16,8 @@ public class AliSmsSendMessage {
     }
 
 
-    public void sendMsg(AliSmsSendMessage aliSmsSendMessage){
-        amqpTemplate.convertAndSend(aliSmsSendMessage);
+    public void sendMsg(AliSmsMessage aliSmsMessage){
+        amqpTemplate.convertAndSend(aliSmsMessage);
     }
 
 }

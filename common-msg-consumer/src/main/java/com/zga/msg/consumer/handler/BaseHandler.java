@@ -1,7 +1,7 @@
 package com.zga.msg.consumer.handler;
 
 import com.aliyuncs.exceptions.ClientException;
-import com.zga.msg.consumer.common.BaseMessage;
+import com.zga.msg.common.BaseMessage;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,7 +15,7 @@ public abstract class BaseHandler {
 
     abstract void handle(BaseMessage message) throws ClientException;
 
-    public void execute(BaseMessage baseMessage) {
+    public void execute(BaseMessage baseMessage) throws ClientException {
         if (check(baseMessage)) {
             handle(baseMessage);
         }

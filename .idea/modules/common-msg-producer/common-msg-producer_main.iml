@@ -6,7 +6,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../../common-msg-producer/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../../common-msg-producer/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../common-msg-producer/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../common-msg-producer/src/main/java" isTestSource="false" />
@@ -42,5 +42,6 @@
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.12" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.3.RELEASE" level="project" />
+    <orderEntry type="module" module-name="common-msg-beans_main" />
   </component>
 </module>

@@ -1,4 +1,4 @@
-package com.zga.msg.consumer.common;
+package com.zga.msg.common;
 
 /**
  * Created with IntelliJ IDEA.

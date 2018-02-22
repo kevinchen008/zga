@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-base/common-base.iml" filepath="$PROJECT_DIR$/.idea/modules/common-base/common-base.iml" group="common-base" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-base/common-base_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-base/common-base_main.iml" group="common-base" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-base/common-base_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-base/common-base_test.iml" group="common-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-beans.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-beans.iml" group="common-msg-beans" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-beans/common-msg-beans_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-beans/common-msg-beans_main.iml" group="common-msg-beans" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-beans/common-msg-beans_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-beans/common-msg-beans_test.iml" group="common-msg-beans" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer.iml" group="common-msg-consumer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer_main.iml" group="common-msg-consumer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-msg-consumer/common-msg-consumer_test.iml" group="common-msg-consumer" />

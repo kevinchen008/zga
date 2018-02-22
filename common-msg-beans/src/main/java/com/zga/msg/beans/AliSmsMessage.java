@@ -1,4 +1,7 @@
-package com.zga.msg.producer.bean;
+package com.zga.msg.beans;
+
+
+import com.zga.msg.common.BaseMessage;
 
 import java.util.Map;
 
@@ -9,7 +12,7 @@ import java.util.Map;
  * @Description:
  * @Datetime: 2018-02-01 17:42
  */
-public class AliSmsMessage {
+public class AliSmsMessage extends BaseMessage {
     private String accessId;
     private String accessKey;
     private String mnsEndpoint;

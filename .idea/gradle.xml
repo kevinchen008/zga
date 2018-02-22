@@ -5,11 +5,12 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../../env/gradle-3.2.1-all/gradle-3.2.1" />
+        <option name="gradleHome" value="D:/../env/gradle-3.2.1-all/gradle-3.2.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/common-base" />
+            <option value="$PROJECT_DIR$/common-msg-beans" />
             <option value="$PROJECT_DIR$/common-msg-consumer" />
             <option value="$PROJECT_DIR$/common-msg-producer" />
             <option value="$PROJECT_DIR$/common-pay" />

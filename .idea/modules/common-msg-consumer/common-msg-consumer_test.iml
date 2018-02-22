@@ -6,7 +6,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../../common-msg-consumer/out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../common-msg-consumer/build/classes/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../common-msg-consumer/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../../common-msg-consumer/src/test/java" isTestSource="true" />
@@ -34,6 +34,7 @@
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.7" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" level="project" />
     <orderEntry type="module" module-name="common-base_main" />
+    <orderEntry type="module" module-name="common-msg-beans_main" />
     <orderEntry type="library" name="Gradle: org.springframework.amqp:spring-amqp:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.aliyun:aliyun-java-sdk-dysmsapi:1.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.aliyun:aliyun-java-sdk-core:3.3.1" level="project" />

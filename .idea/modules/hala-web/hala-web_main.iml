@@ -10,13 +10,13 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../../hala-web/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://D:\work\workspaces\workspace\GIT\ZGA\hala-web\src\main\webapp" relative="/" />
+          <root url="file://$MODULE_DIR$/../../../hala-web/src/main/webapp" relative="/" />
         </webroots>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../../hala-web/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../../hala-web/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../hala-web/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../hala-web/src/main/java" isTestSource="false" />

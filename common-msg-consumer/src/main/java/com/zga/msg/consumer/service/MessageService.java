@@ -1,6 +1,7 @@
 package com.zga.msg.consumer.service;
 
-import com.zga.msg.consumer.common.BaseMessage;
+import com.aliyuncs.exceptions.ClientException;
+import com.zga.msg.common.BaseMessage;
 import com.zga.msg.consumer.handler.BaseHandler;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,11 +35,11 @@ public class MessageService {
         amqpTemplate.convertAndSend(exchange_key, queue_key, object);
     }
 
-    public void sendMessage(BaseMessage baseMessage){
+    public void sendMessage(BaseMessage baseMessage) throws ClientException {
         makeHandler(getHandlerListByType(BaseHandler.class),baseMessage);
     }
 
-    public void makeHandler(List<BaseHandler> handlers, BaseMessage baseMessage){
+    public void makeHandler(List<BaseHandler> handlers, BaseMessage baseMessage) throws ClientException {
         for(BaseHandler handler:handlers){
             handler.execute(baseMessage);
         }

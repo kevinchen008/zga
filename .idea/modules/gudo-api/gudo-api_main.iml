@@ -10,13 +10,13 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../../gudo-api/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://D:\work\workspaces\workspace\GIT\ZGA\gudo-api\src\main\webapp" relative="/" />
+          <root url="file://$MODULE_DIR$/../../../gudo-api/src/main/webapp" relative="/" />
         </webroots>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../../gudo-api/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../../gudo-api/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../gudo-api/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../gudo-api/src/main/java" isTestSource="false" />
@@ -54,8 +54,8 @@
     <orderEntry type="library" name="Gradle: com.alibaba:druid:1.0.27" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.2.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: mysql:mysql-connector-java:5.1.30" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.2.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: mysql:mysql-connector-java:5.1.30" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-pool2:2.3" level="project" />

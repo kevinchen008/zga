@@ -3,7 +3,6 @@ package com.zga.msg.consumer.service;
 import com.aliyuncs.exceptions.ClientException;
 import com.zga.msg.common.BaseMessage;
 import com.zga.msg.consumer.handler.BaseHandler;
-import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
@@ -23,17 +22,9 @@ import java.util.Map;
 @Service
 public class MessageService {
 
-    @Autowired
-    private AmqpTemplate amqpTemplate;
 
     @Autowired
     private ApplicationContext context;
-
-
-    public void sendQueue(String exchange_key, String queue_key, Object object) {
-        // convertAndSend 将Java对象转换为消息发送至匹配key的交换机中Exchange
-        amqpTemplate.convertAndSend(exchange_key, queue_key, object);
-    }
 
     public void sendMessage(BaseMessage baseMessage) throws ClientException {
         makeHandler(getHandlerListByType(BaseHandler.class),baseMessage);
